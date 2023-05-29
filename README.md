@@ -30,4 +30,10 @@ Here is the result of the experiment.
 ![a2](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/b4323ec3-13e9-4f49-ab24-7541616fea40)
 ![dif](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/491b0241-2e25-4151-a85e-9d145b2f825c)
 
+| |Success|Failure|Total|
+|:----|:----|:----|:----|
+|Algorithm1|20|30|50|
+|Algorithm2|19|31|50|
+|Total|39|61| |
+
 
