@@ -26,7 +26,7 @@ I made the token location list(_lacation.txt_) by _location_maker.py_ which crea
 
 Here is the results of the experiment.
 
-<img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/70080272-e7a4-4722-8c98-120b2b3bf464" width="50%" height="50%"> <img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/b4323ec3-13e9-4f49-ab24-7541616fea40" width="50%" height="50%">
+<img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/70080272-e7a4-4722-8c98-120b2b3bf464" width="50%" height="50%"><img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/b4323ec3-13e9-4f49-ab24-7541616fea40" width="50%" height="50%">
 <img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/491b0241-2e25-4151-a85e-9d145b2f825c" width="50%" height="50%"><img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/99362830-53d1-444d-b798-32379ebdfeb4" width="50%" height="50%">
 
 | |Success|Failure|Total|
