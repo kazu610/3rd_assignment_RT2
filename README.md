@@ -30,7 +30,7 @@ Here is the results of the experiment.
 <img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/491b0241-2e25-4151-a85e-9d145b2f825c" width="50%" height="50%"><img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/9427d049-4e22-44c1-bfe8-cb985bfbd32f" width="50%" height="50%">
 
 | |Success|Failure|Total|
-|:----|:----|:----|:----|
+|:---:|:---:|:---:|:---:|
 |Algorithm1|20|30|50|
 |Algorithm2|19|31|50|
 |Total|39|61|100|
@@ -46,7 +46,7 @@ I applied chi-square test to the first hypothesis and paired t-test to the secon
 
     | |Algorithm1(expected value)|Algorithm2(expected value)|
     | |Success|Failure|
-    |:----|:----|:----|
+    |:---:|:---:|:---:|
     |Algorithm1|20(19.5)|30(30.5)|
     |Algorithm2|19(19.5)|31(30.5)|
 
@@ -60,7 +60,7 @@ I applied chi-square test to the first hypothesis and paired t-test to the secon
     Under the null hypothesis, this chi-square value follows a chi-square-distribution with 1 degrees of freedom since there are 2 rows and 2 columns.
 
     |$\chi 2$|Chi-square-distribution (DoF=1, α=0.05)|
-    |:----|:----|
+    |:---:|:---:|
     |0.0420|3.84|
 
     Since the obtained chi-square value is smaller than chi-square-distribution, I can not reject the null hupothesis in this case. Therefore, the fisrt hypothesis is not accepted, algorithm1 doesn't have a higher success rate than algorithm2 _significantly_.
@@ -85,7 +85,7 @@ I applied chi-square test to the first hypothesis and paired t-test to the secon
     Under the null hypothesis, this t-statistic follows a t-distribution with n-1 degrees of freedom.
 
     |T|T-distribution (DoF=49, one-tail, α=0.05)|
-    |:----|:----|
+    |:---:|:---:|
     |2.931|1.677|
 
     Since the t-statistic is larger than t-distribution, I can reject the null hypothesis$H_0$ with 5% error probability. Therefore I conclude that my second hypothesis was accepted, algorithm2 completes tasks _significantly_ faster than algorithm1.
