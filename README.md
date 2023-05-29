@@ -26,5 +26,8 @@ I made the token location list(`lacation.txt`) by `location_maker.py` which crea
 
 Here is the result of the experiment.
 
+![a1](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/70080272-e7a4-4722-8c98-120b2b3bf464)
+![a2](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/b4323ec3-13e9-4f49-ab24-7541616fea40)
+![dif](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/491b0241-2e25-4151-a85e-9d145b2f825c)
 
 
