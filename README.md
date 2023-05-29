@@ -26,10 +26,10 @@ I made the token location list(_lacation.txt_) by _location_maker.py_ which crea
 
 Here is the results of the experiment.
 
-![a1](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/70080272-e7a4-4722-8c98-120b2b3bf464)
-![a2](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/b4323ec3-13e9-4f49-ab24-7541616fea40)
-![dif](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/491b0241-2e25-4151-a85e-9d145b2f825c)
-![mean](https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/99362830-53d1-444d-b798-32379ebdfeb4)
+<img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/70080272-e7a4-4722-8c98-120b2b3bf464">
+<img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/b4323ec3-13e9-4f49-ab24-7541616fea40">
+<img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/491b0241-2e25-4151-a85e-9d145b2f825c">
+<img src="https://github.com/kazu610/3rd_assignment_RT2/assets/114085558/99362830-53d1-444d-b798-32379ebdfeb4">
 
 | |Success|Failure|Total|
 |:----|:----|:----|:----|
@@ -91,5 +91,3 @@ I applied chi-square test to the first hypothesis and paired t-test to the secon
     |2.931|1.677|
 
     Since the t-statistic is larger than t-distribution, I can reject the null hypothesis$H_0$ with 5% error probability. Therefore I conclude that my second hypothesis was accepted, algorithm2 completes tasks _significantly_ faster than algorithm1.
-
-
