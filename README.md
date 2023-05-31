@@ -51,12 +51,9 @@ I applied chi-square test to the first hypothesis and paired t-test to the secon
     |Algorithm2|19(19.5)|31(30.5)|
 
     Based one the above table, chi-square value is calculated as follow.
-    $$
-    \begin{align*}
-    \chi 2 &= \Sigma \dfrac{((\textrm{actual value})-(\textrm{expected value}))^2}{(\textrm{expected value})} \\
-    &= 0.0420
-    \end{align*}
-    $$
+    
+    $${\chi}2=\Sigma\dfrac{((\textrm{actual value})-(\textrm{expected value}))^2}{(\textrm{expected value})}=0.0420$$
+    
     Under the null hypothesis, this chi-square value follows a chi-square-distribution with 1 degrees of freedom since there are 2 rows and 2 columns.
 
     |$\chi 2$|Chi-square-distribution (DoF=1, α=0.05)|
@@ -69,23 +66,15 @@ I applied chi-square test to the first hypothesis and paired t-test to the secon
 
 2. Paired T-Test
     Based the mean difference and the standard deviation of the differences, I computed the standard error of the mean difference.
-    $$
-    \begin{align*}
-        SE(\bar{d}) &= \dfrac{s_d}{\sqrt{n}} \\
-        &= 6.546
-    \end{align*} 
-    $$
+    
+    $$SE(\bar{d}) = \dfrac{s_d}{\sqrt{n}} = 6.546$$
     T-statistic is calculated as follows.
-    $$
-    \begin{align*}
-        T &= \dfrac{\bar{d}}{SE(\bar{d})} \\
-        &= 2.931
-    \end{align*}
-    $$
+    
+    $$T = \dfrac{\bar{d}}{SE(\bar{d})} = 2.931$$
     Under the null hypothesis, this t-statistic follows a t-distribution with n-1 degrees of freedom.
 
     |T|T-distribution (DoF=49, one-tail, α=0.05)|
     |:---:|:---:|
     |2.931|1.677|
 
-    Since the t-statistic is larger than t-distribution, I can reject the null hypothesis$H_0$ with 5% error probability. Therefore I conclude that my second hypothesis was accepted, algorithm2 completes tasks _significantly_ faster than algorithm1.
+    Since the t-statistic is larger than t-distribution, I can reject the null hypothesis $H_0$ with 5% error probability. Therefore I conclude that my second hypothesis was accepted, algorithm2 completes tasks _significantly_ faster than algorithm1.
